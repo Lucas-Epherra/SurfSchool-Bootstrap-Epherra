@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+a { color: black;}
+
+/* barra de navegacion */
+.bg-primary { 
+    background-color: #f97800 !important;
+}
+
+
+/* container main index.html */
+
+.container-fluid {
+    margin-top: 1rem;
+}
+
+/* cards de index.html */
+
+.card { margin-bottom:1rem ;}
+
+/*---------------------------------------- footer all htmls ----------------------------------------------*/
+
+.footer {
+   /*  display: flex; */
+    background-image: linear-gradient(to right, #f97800, #ffaa00, #ffd900);
+    padding-bottom: 1rem;
+}
+
+.menuFooter {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:6rem;
+    width:100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerLogo { 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.logos { 
+    border-radius: 100%;
+}
+
+.social {
+    margin:0px 10px 10px 10px;
+}
+
