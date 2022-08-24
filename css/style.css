@@ -15,8 +15,11 @@ a {
 
 
 .bg-primary {
-    background-color: #f97800 !important;
+    background-image: linear-gradient(to right, #f97800, #ffaa00, #ffd900) !important;
+
 }
+
+
 
 /* botones del navbar (hovers) y personalizacion de botones*/
 .nav-link {
@@ -30,6 +33,10 @@ a {
     background-color: #ffffff32;
     color: rgb(0, 0, 0);
 
+}
+
+.navbar-toggler {
+   border: black solid 1px;
 }
 
 /* boton inicio */
@@ -180,6 +187,33 @@ a {
 
 .containerFaqs {
     padding: 2rem;
+}
+/* --------personalizacion de acordeon---------- */
+.accordion-body {
+    background-color: rgba(0, 195, 255, 0.444);
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+
+
+
+
+.accordion-button:not(collapsed) {
+    color: black;
+    background-image: linear-gradient(to right, #f97800, #ffaa00, #ffd900);
+}
+
+.accordion-button:hover{
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.accordion-button:focus{
+    color: black;
+    font-weight: 700;
+    font-size: large;
 }
 
 /* ------------------------------------------------ CONTACTO.HTML --------------------------------------------------- */
