@@ -185,19 +185,17 @@ a {
 
 /* ------------------------------------------------ PREGUNTAS.HTML --------------------------------------------------- */
 
-.containerFaqs {
+.containerMain {
     padding: 2rem;
 }
-/* --------personalizacion de acordeon---------- */
+
+/* ---------------personalizacion de acordeon---------- */
 .accordion-body {
     background-color: rgba(0, 195, 255, 0.444);
     text-align: center;
     font-size: medium;
     font-weight: 500;
 }
-
-
-
 
 .accordion-button:not(collapsed) {
     color: black;
@@ -218,8 +216,34 @@ a {
 
 /* ------------------------------------------------ CONTACTO.HTML --------------------------------------------------- */
 
+.containerMainForm {
+    margin:0rem 20rem 0rem 20rem;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.formBody  {
+    padding: 4rem;
+    border-radius: 5%;
+    background-image: linear-gradient(to right, #f97800, #ffaa00, #ffd900);
+}  
+
+.containerButtons {
+    display: flex;
+    justify-content: center;
+}
 
 
+.botonForm {
+margin: 5px ;
+padding: 5px;
+}
 
+.inputColors {
+        background-color: rgba(255, 255, 255, 0.595);
+}
+
+.inputColorsBx {
+        background-color: rgba(255, 255, 255, 0.768);
+}
 
 
